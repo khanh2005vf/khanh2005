@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h2{
+        color: blue;
+        background: aqua;
+    }
+    label{
+        margin-left: 30px;
+    }
+    .a{
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }
+</style>
+<body>
+    <form action="">
+        <h2>ĐĂNG KÝ HỌC VIÊN</h2>
+        Họ và tên <label><input type="text" name="fullname"></label> <br>
+        Ngày sinh <label class="a"><input type="text" name="birthday"></label> <br>
+        Giới tính <label ><input type="radio" name="gender">Nam</label>
+        <label><input type="radio">Nữ</label> <br>
+        Địa chỉ <label class="b"><input type="text"></label> <br>
+        Lớp <select class="c">
+            <option value="">- Chọn lớp -</option>
+        </select><br>
+        Email <label class="d"><input type="text" name="email"></label> <br>
+        Điện thoại <label><input type="text" name="phone"></label> <br>
+        <input type="submit" value="Đăng ký">
+        <input type="reset" value="Nhập lại">
+    </form>
+</body>
+</html>
